@@ -1,0 +1,46 @@
+﻿# Environment / secrets
+.env
+.env.*
+*.env
+secrets/
+credentials/
+keys/
+tokens/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# Data / private outputs
+data/
+datasets/
+raw_data/
+tick_data/
+exports/
+backups/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.sql.gz
+*.dump
+
+# Logs / temp
+logs/
+*.log
+tmp/
+temp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
