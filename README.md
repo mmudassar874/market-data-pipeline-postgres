@@ -1,6 +1,6 @@
 ﻿# Market Data Pipeline Postgres
 
-![Tests](https://github.com/mmudassar874/market-data-pipeline-postgres/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/mmudassar874/market-data-pipeline-postgres/actions/workflows/tests.yml/badge.svg?branch=main)
 
 A public-safe PostgreSQL + Python demo for market-data ingestion, bar construction, and data-quality auditing.
 
