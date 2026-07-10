@@ -1,4 +1,4 @@
-﻿-- Detect time gaps between consecutive ticks.
+-- Detect time gaps between consecutive ticks.
 --
 -- Public-safe demo query.
 -- A real trading system would tune the gap threshold by symbol, session, and data source.

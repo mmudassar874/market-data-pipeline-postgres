@@ -1,4 +1,4 @@
-﻿"""Database helpers for the public-safe PostgreSQL market-data demo."""
+"""Database helpers for the public-safe PostgreSQL market-data demo."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 def read_sql(relative_path: str) -> str:
     """Read a SQL file relative to the repository root."""
 
-    return (PROJECT_ROOT / relative_path).read_text(encoding="utf-8")
+    return (PROJECT_ROOT / relative_path).read_text(encoding="utf-8-sig")
 
 
 def reset_demo_schemas(conn: psycopg.Connection) -> None:
@@ -36,7 +36,7 @@ def apply_migrations(conn: psycopg.Connection) -> None:
 
     for migration_path in sorted(migrations_dir.glob("*.sql")):
         with conn.cursor() as cur:
-            cur.execute(migration_path.read_text(encoding="utf-8"))
+            cur.execute(migration_path.read_text(encoding="utf-8-sig"))
 
 
 def execute_query_file(conn: psycopg.Connection, relative_path: str) -> None:

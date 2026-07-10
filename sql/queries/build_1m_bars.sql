@@ -1,4 +1,4 @@
-﻿-- Build 1-minute OHLC bars from synthetic raw ticks.
+-- Build 1-minute OHLC bars from synthetic raw ticks.
 --
 -- Public-safe demo query.
 -- No real AlphaQuant data, broker data, or private strategy logic.

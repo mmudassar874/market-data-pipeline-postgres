@@ -1,4 +1,4 @@
-﻿-- Market Data Pipeline Postgres
+-- Market Data Pipeline Postgres
 -- Public-safe demo schema.
 --
 -- This migration uses synthetic/demo market data only.

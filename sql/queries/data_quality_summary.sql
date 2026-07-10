@@ -1,4 +1,4 @@
-﻿-- Data-quality summary for synthetic market-data pipeline.
+-- Data-quality summary for synthetic market-data pipeline.
 --
 -- Public-safe demo query.
 -- Does not expose private AlphaQuant data or strategy logic.

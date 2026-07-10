@@ -1,4 +1,4 @@
-﻿-- Build 15-minute OHLC bars from 1-minute bars.
+-- Build 15-minute OHLC bars from 1-minute bars.
 --
 -- Public-safe demo query.
 -- This demonstrates derived bar construction and close-time bucket logic.
