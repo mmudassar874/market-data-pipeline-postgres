@@ -1,5 +1,7 @@
 ﻿# Market Data Pipeline Postgres
 
+![Tests](https://github.com/mmudassar874/market-data-pipeline-postgres/actions/workflows/tests.yml/badge.svg)
+
 A public-safe PostgreSQL + Python demo for market-data ingestion, bar construction, and data-quality auditing.
 
 This repository is inspired by private AlphaQuant database engineering work, but it does not contain private AlphaQuant code, real tick data, broker information, strategy thresholds, database credentials, or production schemas.
