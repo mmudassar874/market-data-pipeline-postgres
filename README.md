@@ -78,3 +78,9 @@ This repository demonstrates the clean public version of a market-data pipeline.
 
 **Muhammad Mudassir**  
 Self-taught quantitative trading systems developer and FinTech SaaS founder.
+
+---
+
+## Documentation
+
+- [Data-Quality Audits](docs/data-quality-audits.md)
